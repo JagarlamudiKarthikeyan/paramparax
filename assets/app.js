@@ -7,8 +7,8 @@
       svc_name:"Your name", svc_contact_ph:"Phone / email", svc_msg:"Your message",
       svc_send:"Send message", svc_sent:"Thanks! The team will get back to you soon.",
 svc_note:"We usually reply within a day.",
-    hero_h1:"Step through Warangal's gates into India's heritage.",
-    hero_sub:"Discover traditional arts, learn from master artisans, visit live workshops, and support authentic handmade crafts — all in one place.",
+    hero_h1:"Every tradition has a story.",
+    hero_sub:"Discover. Connect. Preserve. Explore the people, places and practices that keep India’s living heritage in motion.",
     search_ph:"Search for a craft, region or artisan...", search_btn:"Search",
     stat1:"Crafts catalogued", stat2:"Artisans supported", stat3:"States & UTs", stat4:"GI-tagged crafts",
     services_h2:"Popular crafts", services_sub:"Start with the crafts people love",
@@ -43,7 +43,7 @@ signup_ph:"Enter 10-digit mobile number", signup_btn:"Join", signup_aria:"Mobile
     theme_aria:"Toggle dark mode", backtop_aria:"Back to top",
     fav_added:"Added to your favourites!", fav_removed:"Removed from favourites.",
 favs_only:"Showing your favourite crafts.", favs_all:"Showing all crafts.",
-    hero_eyebrow:"A living museum of India's crafts", hero_scroll:"Scroll to explore", hero_cta2:"Explore the Six Worlds",
+    hero_eyebrow:"India’s Living Heritage Atlas", hero_scroll:"Scroll to explore", hero_cta2:"Explore the Six Worlds",
     cat_all:"All",
     worlds_h2:"The Six Worlds of ANVAYA",
     worlds_sub:"Journey through the worlds that make up India's living heritage — each with its own stories, sounds and colours.",
@@ -75,8 +75,8 @@ brand:"ANVAYA", nav_home:"होम", nav_services:"शिल्प", nav_how:"�
     svc_name:"आपका नाम", svc_contact_ph:"फ़ोन / ईमेल", svc_msg:"आपका संदेश",
     svc_send:"संदेश भेजें", svc_sent:"धन्यवाद! टीम शीघ्र ही आपसे संपर्क करेगी।",
 svc_note:"हम आमतौर पर एक दिन में उत्तर देते हैं।",
-    hero_h1:"वारंगल के द्वार से भारत की विरासत में क़दम रखें।",
-    hero_sub:"पारंपरिक कलाओं को खोजें, मास्टर कारीगरों से सीखें, लाइव वर्कशॉप देखें और असली हस्तशिल्प का समर्थन करें।",
+    hero_h1:"हर परंपरा की अपनी एक कहानी है।",
+    hero_sub:"खोजें। जुड़ें। संजोएँ। भारत की जीवित विरासत के लोगों, जगहों और परंपराओं को जानें।",
     search_ph:"कोई शिल्प, क्षेत्र या कारीगर खोजें...", search_btn:"खोजें",
     stat1:"सूचीबद्ध शिल्प", stat2:"समर्थित कारीगर", stat3:"राज्य और केंद्र शासित प्रदेश", stat4:"जीआई-टैग शिल्प",
     services_h2:"लोकप्रिय शिल्प", services_sub:"लोगों को पसंद आने वाले शिल्प से शुरू करें",
@@ -111,7 +111,7 @@ svc_note:"हम आमतौर पर एक दिन में उत्त�
     theme_aria:"डार्क मोड टॉगल करें", backtop_aria:"ऊपर जाएं",
     fav_added:"आपकी पसंदीदा में जोड़ा गया!", fav_removed:"पसंदीदा से हटाया गया।",
 favs_only:"आपकी पसंदीदा शिल्प दिखाए जा रहे हैं।", favs_all:"सभी शिल्प दिखाए जा रहे हैं।",
-    hero_eyebrow:"भारत के शिल्पों का जीवंत संग्रहालय", hero_scroll:"अन्वेषण के लिए स्क्रॉल करें", hero_cta2:"छह संसार देखें",
+    hero_eyebrow:"भारत की जीवित विरासत का एटलस", hero_scroll:"अन्वेषण के लिए स्क्रॉल करें", hero_cta2:"छह संसार देखें",
     cat_all:"सभी",
     worlds_h2:"ANVAYA के छह संसार",
     worlds_sub:"भारत की जीवित विरासत के संसारों की यात्रा करें — हर एक की अपनी कहानियां, ध्वनियां और रंग हैं।",
@@ -143,8 +143,8 @@ brand:"ANVAYA", nav_home:"హోమ్", nav_services:"శిల్పాలు"
     svc_name:"మీ పేరు", svc_contact_ph:"ఫోన్ / ఇమెయిల్", svc_msg:"మీ సందేశం",
     svc_send:"సందేశం పంపండి", svc_sent:"ధన్యవాదాలు! బృందం త్వరలో మిమ్మల్ని సంప్రదిస్తుంది.",
 svc_note:"మేము సాధారణంగా ఒక రోజులో బదులిస్తాము.",
-    hero_h1:"వరంగల్ గుమ్మం గుండా భారత వారసత్వంలోకి అడుగు పెట్టండి.",
-    hero_sub:"సాంప్రదాయ కళలను కనుగొనండి, మాస్టర్ హస్తకళాకారుల నుంచి నేర్చుకోండి, ప్రత్యక్ష వర్క్‌షాప్‌లను చూడండి మరియు అసలైన చేతిపనులకు మద్దతు ఇవ్వండి.",
+    hero_h1:"ప్రతి సంప్రదాయానికి ఒక కథ ఉంది.",
+    hero_sub:"కనుగొనండి. కలవండి. కాపాడండి. భారత సజీవ వారసత్వంలోని ప్రజలు, ప్రదేశాలు, సంప్రదాయాలను తెలుసుకోండి.",
     search_ph:"శిల్పం, ప్రాంతం లేదా హస్తకళాకారుడి కోసం వెతకండి...", search_btn:"వెతకండి",
     stat1:"నమోదైన శిల్పాలు", stat2:"మద్దతు పొందిన కళాకారులు", stat3:"రాష్ట్రాలు & కేంద్రపాలిత ప్రాంతాలు", stat4:"GI-గుర్తింపు శిల్పాలు",
     services_h2:"ప్రజాదరణ పొందిన శిల్పాలు", services_sub:"ప్రజలు ఇష్టపడే శిల్పాలతో ప్రారంభించండి",
@@ -179,7 +179,7 @@ svc_note:"మేము సాధారణంగా ఒక రోజులో బ
     theme_aria:"డార్క్ మోడ్ టోగుల్ చేయండి", backtop_aria:"పైకి వెళ్లు",
     fav_added:"మీ ఇష్టమైనవిలో జోడించబడింది!", fav_removed:"ఇష్టమైనవి నుండి తీసివేయబడింది.",
 favs_only:"మీ ఇష్టమైన శిల్పాలు చూపుతోంది.", favs_all:"అన్ని శిల్పాలు చూపుతోంది.",
-    hero_eyebrow:"భారతదేశ కళల ప్రత్యక్ష మ్యూజియం", hero_scroll:"అన్వేషించడానికి స్క్రోల్ చేయండి", hero_cta2:"ఆరు ప్రపంచాలు చూడండి",
+    hero_eyebrow:"భారత సజీవ వారసత్వ అట్లాస్", hero_scroll:"అన్వేషించడానికి స్క్రోల్ చేయండి", hero_cta2:"ఆరు ప్రపంచాలు చూడండి",
     cat_all:"అన్నీ",
     worlds_h2:"ANVAYA ఆరు ప్రపంచాలు",
     worlds_sub:"భారతదేశ సజీవ వారసత్వాన్ని రూపొందించే ప్రపంచాలుగా ప్రయాణించండి — ప్రతిదానికీ సొంత కథలు, శబ్దాలు మరియు రంగులు ఉన్నాయి.",
@@ -785,7 +785,7 @@ document.querySelectorAll('[data-close]').forEach(btn=>{
   btn.addEventListener('click', ()=> closeModal(btn.closest('.modal').id));
 });
 const ctaBtnEl = document.querySelector('.cta .btn');
-if(ctaBtnEl) ctaBtnEl.addEventListener('click', ()=>{ openModal('signupModal'); });
+if(ctaBtnEl && ctaBtnEl.tagName === 'BUTTON') ctaBtnEl.addEventListener('click', ()=>{ openModal('signupModal'); });
 
 const phoneInput = document.getElementById('signupPhone');
 phoneInput.addEventListener('input', ()=>{
