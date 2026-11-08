@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ANVAYA — Explore India's heritage &amp; crafts</title>
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/anvaya-home.css">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
-<body class="lang-en">
+<body class="lang-en home-page">
 <script>(function(){try{var t=localStorage.getItem('virasat_theme');if(t==null&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches)t='dark';if(t==='dark')document.body.classList.add('dark');}catch(e){}})();</script>
 
 <a class="skip-link" href="#maincontent">Skip to content</a>
@@ -63,9 +64,16 @@
   <div class="hero-bg"><img src="/uploads/1789486456455_WhatsApp_Image_2026-09-15_at_8.54.34_PM.jpeg" alt="" aria-hidden="true"></div>
   <div class="hero-ovl" aria-hidden="true"></div>
   <div class="wrap hero-inner">
-    <span class="hero-eyebrow" data-i18n="hero_eyebrow">A living museum of India's crafts</span>
-    <h1 data-i18n="hero_h1">One doorway to India's heritage &amp; crafts.</h1>
-    <p class="sub" data-i18n="hero_sub">Discover traditional arts, learn from master artisans, visit live workshops, and support authentic handmade crafts — all in one place.</p>
+    <span class="hero-eyebrow" data-i18n="hero_eyebrow">India’s Living Heritage Atlas</span>
+    <h1 data-i18n="hero_h1">Every tradition has a story.</h1>
+    <p class="sub" data-i18n="hero_sub">Discover. Connect. Preserve. Explore the people, places and practices that keep India’s living heritage in motion.</p>
+    <form class="atlas-search" id="atlasSearchForm" role="search" aria-label="Search India’s living heritage">
+      <label class="sr-only" for="atlasSearch">Search traditions, places, languages and communities</label>
+      <input id="atlasSearch" type="search" autocomplete="off" placeholder="Search traditions, places, languages…" aria-describedby="atlasSearchStatus">
+      <button type="submit" class="atlas-search-submit"><span aria-hidden="true">⌕</span> <span>Discover</span></button>
+      <button type="button" class="atlas-search-clear" id="atlasSearchClear" aria-label="Clear search" hidden>×</button>
+    </form>
+    <p class="atlas-search-status" id="atlasSearchStatus" role="status" aria-live="polite">Discover. Connect. Preserve.</p>
     <div class="hero-cta">
       <a class="btn btn-ghost" href="#worlds" data-i18n="hero_cta2">Explore the Six Worlds</a>
     </div>
@@ -201,7 +209,7 @@
 <section class="cta">
   <div class="wrap">
     <h2 data-i18n="cta_h2">Every craft has a maker. Every maker has a story.</h2>
-    <button class="btn" data-i18n="cta_btn">Start exploring</button>
+    <a class="btn" href="#worlds" data-i18n="cta_btn">Start exploring</a>
 </div>
 </section>
 
@@ -246,5 +254,6 @@
 </div>
 
 <script src="assets/app.js"></script>
+<script src="assets/anvaya-home.js"></script>
 </body>
 </html>
