@@ -28,5 +28,6 @@
  form.addEventListener('submit',e=>{e.preventDefault();filter();document.getElementById('regionGrid').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});});
  input.addEventListener('input',filter);clear.addEventListener('click',()=>{input.value='';filter();input.focus();});
  document.querySelectorAll('.lang-switch button').forEach(b=>b.addEventListener('click',()=>setTimeout(render,0)));
+ const initialState=new URLSearchParams(location.search).get('state');if(initialState)input.value=initialState;
  render();
 })();
