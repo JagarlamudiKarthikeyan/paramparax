@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ANVAYA — Explore India's heritage &amp; crafts</title>
+<title>ANVAYA — India’s Living Heritage Atlas</title>
 <link rel="stylesheet" href="assets/style.css">
 <link rel="stylesheet" href="assets/anvaya-home.css">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/anvaya-refresh.css">
 </head>
-<body class="lang-en home-page">
+<body class="lang-en home-page anvaya-refresh" data-anvaya-page="home">
 <script>(function(){try{var t=localStorage.getItem('virasat_theme');if(t==null&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches)t='dark';if(t==='dark')document.body.classList.add('dark');}catch(e){}})();</script>
 
 <a class="skip-link" href="#maincontent">Skip to content</a>
@@ -66,7 +67,8 @@
   <div class="hero-ovl" aria-hidden="true"></div>
   <div class="wrap hero-inner">
     <span class="hero-eyebrow" data-i18n="hero_eyebrow">India’s Living Heritage Atlas</span>
-    <h1 data-i18n="hero_h1">Every tradition has a story.</h1>
+    <h1 data-i18n="hero_h1">Discover India’s Living Heritage.</h1>
+    <p class="hero-tagline" data-i18n="hero_tagline">Every tradition has a story.</p>
     <p class="sub" data-i18n="hero_sub">Discover. Connect. Preserve. Explore the people, places and practices that keep India’s living heritage in motion.</p>
     <form class="atlas-search" id="atlasSearchForm" role="search" aria-label="Search India’s living heritage">
       <label class="sr-only" for="atlasSearch">Search traditions, places, languages and communities</label>
@@ -76,7 +78,7 @@
     </form>
     <p class="atlas-search-status" id="atlasSearchStatus" role="status" aria-live="polite">Discover. Connect. Preserve.</p>
     <div class="hero-cta">
-      <a class="btn btn-ghost" href="#worlds" data-i18n="hero_cta2">Explore the Six Worlds</a>
+      <a class="btn btn-ghost" href="explore.html" data-i18n="hero_cta2">Explore the Six Worlds</a>
     </div>
   </div>
   <a class="scroll-hint" href="#worlds" aria-label="Scroll to explore"><span class="mouse"></span><span data-i18n="hero_scroll">Scroll to explore</span></a>
@@ -99,7 +101,7 @@
     </div>
     <div class="worlds-grid">
       <section class="world" data-cat="crafts">
-        <h3 class="world-title" data-i18n="world_t1">Arts and Handicrafts</h3>
+        <h3 class="world-title"><a href="crafts.html" data-i18n="world_t1">Arts and Handicrafts</a></h3>
         <div class="slider" aria-roledescription="carousel" aria-label="Arts and Handicrafts">
           <div class="slider-window"><div class="slider-track" data-track></div></div>
           <button type="button" class="slider-nav prev" aria-label="Previous slide">&#8249;</button>
@@ -108,7 +110,7 @@
         </div>
       </section>
       <section class="world" data-cat="dance">
-        <h3 class="world-title" data-i18n="world_t2">Dance Forms</h3>
+        <h3 class="world-title"><a href="dance.html" data-i18n="world_t2">Dance Forms</a></h3>
         <div class="slider" aria-roledescription="carousel" aria-label="Dance Forms">
           <div class="slider-window"><div class="slider-track" data-track></div></div>
           <button type="button" class="slider-nav prev" aria-label="Previous slide">&#8249;</button>
@@ -117,7 +119,7 @@
         </div>
       </section>
       <section class="world" data-cat="festivals">
-        <h3 class="world-title" data-i18n="world_t3">Culture and Festivals</h3>
+        <h3 class="world-title"><a href="festivals.html" data-i18n="world_t3">Culture and Festivals</a></h3>
         <div class="slider" aria-roledescription="carousel" aria-label="Culture and Festivals">
           <div class="slider-window"><div class="slider-track" data-track></div></div>
           <button type="button" class="slider-nav prev" aria-label="Previous slide">&#8249;</button>
@@ -126,7 +128,7 @@
         </div>
       </section>
       <section class="world" data-cat="places">
-        <h3 class="world-title" data-i18n="world_t4">Heritage Places</h3>
+        <h3 class="world-title"><a href="heritage.html" data-i18n="world_t4">Heritage Places</a></h3>
         <div class="slider" aria-roledescription="carousel" aria-label="Heritage Places">
           <div class="slider-window"><div class="slider-track" data-track></div></div>
           <button type="button" class="slider-nav prev" aria-label="Previous slide">&#8249;</button>
@@ -135,7 +137,7 @@
         </div>
       </section>
       <section class="world" data-cat="languages">
-        <h3 class="world-title" data-i18n="world_t5">Languages</h3>
+        <h3 class="world-title"><a href="languages.html" data-i18n="world_t5">Languages</a></h3>
         <div class="slider" aria-roledescription="carousel" aria-label="Languages">
           <div class="slider-window"><div class="slider-track" data-track></div></div>
           <button type="button" class="slider-nav prev" aria-label="Previous slide">&#8249;</button>
@@ -144,7 +146,7 @@
         </div>
       </section>
       <section class="world" data-cat="stories">
-        <h3 class="world-title" data-i18n="world_t6">Origins and Stories</h3>
+        <h3 class="world-title"><a href="stories.html" data-i18n="world_t6">Origins and Stories</a></h3>
         <div class="slider" aria-roledescription="carousel" aria-label="Origins and Stories">
           <div class="slider-window"><div class="slider-track" data-track></div></div>
           <button type="button" class="slider-nav prev" aria-label="Previous slide">&#8249;</button>
@@ -210,7 +212,7 @@
 <section class="cta">
   <div class="wrap">
     <h2 data-i18n="cta_h2">Every craft has a maker. Every maker has a story.</h2>
-    <a class="btn" href="#worlds" data-i18n="cta_btn">Start exploring</a>
+    <a class="btn" href="explore.html" data-i18n="cta_btn">Start exploring</a>
 </div>
 </section>
 
@@ -256,5 +258,6 @@
 
 <script src="assets/app.js"></script>
 <script src="assets/anvaya-home.js"></script>
+<script src="assets/anvaya-refresh.js"></script>
 </body>
 </html>

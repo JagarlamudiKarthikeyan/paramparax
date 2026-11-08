@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ANVAYA — Crafts &amp; services</title>
+<title>ANVAYA — Arts & Handicrafts</title>
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/anvaya-refresh.css">
 </head>
-<body class="lang-en">
+<body class="lang-en anvaya-refresh" data-anvaya-page="crafts" data-atlas-category="crafts" data-anvaya-page="category">
 <script>(function(){try{var t=localStorage.getItem('virasat_theme');if(t==null&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches)t='dark';if(t==='dark')document.body.classList.add('dark');}catch(e){}})();</script>
 
 <a class="skip-link" href="#maincontent">Skip to content</a>
@@ -59,104 +60,36 @@
   </div>
 </header>
 
-<section class="page-head" id="maincontent" tabindex="-1">
-  <div class="wrap">
-    <span class="hero-eyebrow" data-i18n="pg_eyebrow_crafts">Services &amp; experiences</span>
-    <h1 data-i18n="services_h2">Popular crafts</h1>
-    <p data-i18n="services_sub">Start with the crafts people love</p>
-  </div>
+<main class="atlas-category-page">
+<section class="atlas-page-hero" id="maincontent" tabindex="-1">
+ <div class="wrap">
+  <span class="atlas-kicker" id="archiveKicker">Living traditions / archive</span>
+  <h1 id="archiveTitle">Living traditions</h1>
+  <p id="archiveIntro"></p>
+  <form class="archive-search" id="archiveSearchForm" role="search">
+   <label class="sr-only" for="archiveSearch">Search this archive</label>
+   <input id="archiveSearch" type="search" autocomplete="off" placeholder="Search within this archive">
+   <button type="submit">Search</button>
+   <button class="archive-clear" id="archiveClear" type="button" hidden>Clear</button>
+  </form>
+  <p class="archive-count" id="archiveCount" role="status" aria-live="polite"></p>
+ </div>
 </section>
-
-<section class="services" id="services">
-  <div class="wrap">
-    <div class="search-row">
-      <input type="text" id="searchInput" aria-label="Search for a craft" data-i18n-placeholder="search_ph" placeholder="Search for a craft, region or artisan...">
-      <button class="btn" id="searchBtn" data-i18n="search_btn">Search</button>
-      <div id="suggestions" role="listbox"></div>
-    </div>
-    <div class="card-grid">
-      <div class="card" data-idx="0" tabindex="0" role="button" aria-label="Discover India's heritage">
-        <img class="card-img" src="/uploads/1789485989532_whatsapp_heritage.jpg" alt="Heritage crafts photographed by the community">
-        <div class="card-body">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--saffron-deep)" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/><path d="M9 11h4M11 9v4"/></svg>
-          <button type="button" class="fav-btn" data-idx="0" data-i18n-aria="fav_aria" aria-label="Save to favourites"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21.2l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-          <h3 data-i18n="c1_title">Discover heritage</h3>
-          <p data-i18n="c1_body">Journey through crafts, monuments and living traditions — searchable by state and region.</p>
-          <span class="card-cta" data-i18n="apply_btn">Start exploring</span>
-        </div>
-      </div>
-      <div class="card" data-idx="1" tabindex="0" role="button" aria-label="Learn from master artisans">
-        <img class="card-img" src="/uploads/1789486456254_jpg.jpeg" alt="Master artisan crafts photographed by the community">
-        <div class="card-body">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.8"><path d="M12 5c-2-1.2-5-1.2-8 0v14c3-1.2 6-1.2 8 0 2-1.2 5-1.2 8 0V5c-3-1.2-6-1.2-8 0z"/><path d="M12 5v14"/></svg>
-          <button type="button" class="fav-btn" data-idx="1" data-i18n-aria="fav_aria" aria-label="Save to favourites"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21.2l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-          <h3 data-i18n="c2_title">Learn from artisans</h3>
-          <p data-i18n="c2_body">Watch master artisans teach their craft — techniques, stories and step-by-step lessons.</p>
-          <span class="card-cta" data-i18n="apply_btn">Start exploring</span>
-        </div>
-      </div>
-      <div class="card" data-idx="2" tabindex="0" role="button" aria-label="Visit craft villages and workshops">
-        <img class="card-img" src="/uploads/1789486456429_jpg(1).jpeg" alt="Craft village scenery photographed by the community">
-        <div class="card-body">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-          <button type="button" class="fav-btn" data-idx="2" data-i18n-aria="fav_aria" aria-label="Save to favourites"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21.2l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-          <h3 data-i18n="c3_title">Visit craft villages</h3>
-          <p data-i18n="c3_body">Find live workshops, museums and craft hubs — check timings and plan your visit.</p>
-          <span class="card-cta" data-i18n="apply_btn">Start exploring</span>
-        </div>
-      </div>
-      <div class="card" data-idx="3" tabindex="0" role="button" aria-label="Upload and sell crafts">
-        <img class="card-img" src="/uploads/1789486456438_jpg(2).jpeg" alt="Handmade crafts photographed by the community">
-        <div class="card-body">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.8"><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M12 3v12M8 7l4-4 4 4"/></svg>
-          <button type="button" class="fav-btn" data-idx="3" data-i18n-aria="fav_aria" aria-label="Save to favourites"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21.2l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-          <h3 data-i18n="c4_title">Upload &amp; sell crafts</h3>
-          <p data-i18n="c4_body">Artisans can list their handmade products and get authenticity tags without a queue.</p>
-          <span class="card-cta" data-i18n="apply_btn">Start exploring</span>
-        </div>
-      </div>
-      <div class="no-results" data-i18n="search_none">No crafts match your search. Try another craft or region.</div>
-    </div>
-  </div>
+<section class="atlas-section" aria-labelledby="archiveSectionTitle">
+ <div class="wrap">
+  <div class="atlas-section-head"><div><span class="atlas-kicker" style="color:#963F2D">FIELD INDEX</span><h2 id="archiveSectionTitle">From the ANVAYA archive</h2></div><p>Browse the entries currently in the ANVAYA catalog.</p></div>
+  <div class="atlas-grid" id="archiveGrid"></div>
+  <p class="atlas-empty" id="archiveEmpty" hidden></p>
+ </div>
 </section>
-
-<section class="svc-view" id="serviceView" hidden>
-  <div class="wrap">
-    <button type="button" id="svcBack" class="svc-back" data-i18n="svc_back">&#8592; Back to crafts</button>
-    <div class="svc-hero">
-      <div class="svc-icon" id="svcIcon"></div>
-      <div class="svc-hero-txt">
-        <span class="svc-badge" data-i18n="svc_badge">Service</span>
-        <h2 id="svcName"></h2>
-        <p id="svcTag" class="svc-tag"></p>
-      </div>
-    </div>
-    <div class="svc-steps">
-      <h3 class="svc-h" data-i18n="svc_steps">How it works</h3>
-      <ol id="svcSteps" class="svc-steps-list"></ol>
-    </div>
-    <div class="svc-about">
-      <h3 class="svc-h" data-i18n="svc_about">About this service</h3>
-      <p id="svcAbout1"></p>
-      <p id="svcAbout2"></p>
-    </div>
-    <div class="svc-cats">
-      <h3 class="svc-h" data-i18n="svc_crafts">Crafts you will discover</h3>
-      <div id="svcCats" class="svc-cats-grid"></div>
-    </div>
-    <div class="svc-contact">
-      <h3 class="svc-h" data-i18n="svc_contact">Reach the team</h3>
-      <form id="svcForm" class="svc-form">
-        <input id="svcNameF" type="text" data-i18n-placeholder="svc_name" data-i18n-aria="svc_name" placeholder="Your name" required>
-        <input id="svcContactF" type="text" data-i18n-placeholder="svc_contact_ph" data-i18n-aria="svc_contact_ph" placeholder="Phone / email" required>
-        <textarea id="svcMsgF" rows="4" data-i18n-placeholder="svc_msg" data-i18n-aria="svc_msg" placeholder="Your message" required></textarea>
-        <button class="btn" type="submit" data-i18n="svc_send">Send message</button>
-      </form>
-      <p class="svc-note" data-i18n="svc_note">We usually reply within a day.</p>
-    </div>
-  </div>
+<section class="atlas-section alt">
+ <div class="wrap atlas-steps">
+  <div class="atlas-step"><h3>Discover</h3><p>Use Explore India to browse regional notes and related traditions.</p><a class="btn" href="explore.html">Explore India</a></div>
+  <div class="atlas-step"><h3>Connect</h3><p>Find a way to learn more or contact the ANVAYA team.</p><a class="btn btn-outline" href="contact.html">Contact the team</a></div>
+  <div class="atlas-step"><h3>Preserve</h3><p>Share a field photo or cultural note with the community gallery.</p><a class="btn btn-outline" href="gallery.html">Visit the gallery</a></div>
+ </div>
 </section>
-
+</main>
 <footer id="footer">
   <div class="wrap">
     <p class="foot-note" data-i18n="foot_note">Available in English, Hindi and Telugu, with more languages on the way.</p>
@@ -208,5 +141,8 @@
 </div>
 
 <script src="assets/app.js"></script>
+<script src="assets/anvaya-pages.js"></script>
+<script src="assets/anvaya-refresh.js"></script>
+<script src="assets/anvaya-refresh.js"></script>
 </body>
 </html>
