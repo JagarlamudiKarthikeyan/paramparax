@@ -54,3 +54,7 @@ The site opens on the intro + Log in / Sign up page; already-signed-in users go 
 ## Database
 
 SQLite (`backend/virasat.db`) is the default and is created on first login. To use Postgres instead, set a `DATABASE_URL` environment variable before starting (`postgresql://user:pass@host/db`) and the backend auto-switches (psycopg) — handy for multi-machine or persistent-hosted setups.
+
+## ANVAYA design handoff
+
+The editable ANVAYA visual prototype lives in [Google Stitch](https://stitch.google.com/projects/10412858933242121082?pli=1). The page inventory, brand tokens, responsive sizes, shared navigation, and motion notes are in [design/ANVAYA-STITCH-HANDOFF.md](design/ANVAYA-STITCH-HANDOFF.md). This is a design reference; the existing application has not been changed by the Stitch handoff.
