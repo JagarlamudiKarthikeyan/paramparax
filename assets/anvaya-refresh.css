@@ -174,3 +174,42 @@ body.dark.anvaya-refresh .explore-section-head>p{color:#c3c1b8}
 .hero-tagline{margin:1rem 0 0;color:var(--atlas-muted);font:italic 1.28rem/1.5 Georgia,serif;letter-spacing:.01em}
 .region-card{text-decoration:none}
 .region-card:hover{text-decoration:none}
+
+
+/* Homepage heritage chakra */
+body.anvaya-refresh .heritage-chakra{padding:clamp(64px,8vw,112px) 0;background:var(--anvaya-ivory);overflow:hidden}
+body.anvaya-refresh .chakra-intro{max-width:680px;margin:0 auto 46px;text-align:center}
+body.anvaya-refresh .chakra-intro .atlas-kicker{color:var(--anvaya-red)}
+body.anvaya-refresh .chakra-intro h2{margin:10px 0 8px;font-size:clamp(2.25rem,4.4vw,3.65rem);line-height:1.02;color:var(--anvaya-ink)}
+body.anvaya-refresh .chakra-intro p{max-width:590px;margin:0 auto;color:var(--anvaya-muted);font-size:15px;line-height:1.75}
+body.anvaya-refresh .chakra-stage{position:relative;isolation:isolate;width:min(100%,930px);margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(210px,290px) minmax(0,1fr);grid-template-rows:160px 290px 160px;grid-template-areas:"nw north ne" "west core east" "sw south se";gap:14px;align-items:center;justify-items:center}
+body.anvaya-refresh .chakra-orbit{position:absolute;z-index:-1;left:50%;top:50%;width:min(74%,650px);aspect-ratio:1;transform:translate(-50%,-50%);border:1px solid rgba(177,138,74,.34);border-radius:50%;background:radial-gradient(circle,rgba(177,138,74,.08) 0 35%,transparent 35.2% 64%,rgba(150,63,45,.035) 64.2% 65%,transparent 65.2%);pointer-events:none}
+body.anvaya-refresh .chakra-core{grid-area:core;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#fffaf1 0 38%,#f0e5d1 100%);border:1px solid rgba(177,138,74,.45);box-shadow:0 22px 55px rgba(38,44,53,.11),inset 0 0 0 8px rgba(255,255,255,.43);text-align:center}
+body.anvaya-refresh .chakra-wheel{width:clamp(110px,15vw,148px);aspect-ratio:1;color:var(--anvaya-red)}
+body.anvaya-refresh .chakra-wheel svg{display:block;width:100%;height:100%;overflow:visible}
+body.anvaya-refresh .chakra-wheel line{stroke:var(--anvaya-brass);stroke-width:1.65;stroke-linecap:round}
+body.anvaya-refresh .chakra-wheel-outer,body.anvaya-refresh .chakra-wheel-inner{fill:none;stroke:currentColor;stroke-width:2}
+body.anvaya-refresh .chakra-wheel-hub{fill:var(--anvaya-red);stroke:var(--anvaya-brass);stroke-width:2}
+body.anvaya-refresh .chakra-core-wordmark{color:var(--anvaya-red);font:600 14px/1 var(--anvaya-serif);letter-spacing:.2em}
+body.anvaya-refresh .chakra-core-caption{color:var(--anvaya-muted);font-size:9px;letter-spacing:.08em;text-transform:uppercase}
+body.anvaya-refresh .chakra-topic{position:relative;display:flex;align-items:center;gap:12px;width:min(100%,235px);min-height:86px;padding:13px 14px;border:1px solid rgba(38,44,53,.13);border-radius:4px;background:rgba(255,252,246,.9);color:var(--anvaya-ink);text-decoration:none;box-shadow:0 8px 20px rgba(38,44,53,.04);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+body.anvaya-refresh .chakra-topic:hover,body.anvaya-refresh .chakra-topic:focus-visible{transform:translateY(-4px);border-color:rgba(150,63,45,.48);box-shadow:0 14px 28px rgba(38,44,53,.1);outline:none}
+body.anvaya-refresh .chakra-topic-index{flex:0 0 30px;width:30px;height:30px;display:grid;place-items:center;border:1px solid rgba(177,138,74,.52);border-radius:50%;color:var(--anvaya-red);font:500 12px/1 var(--anvaya-serif)}
+body.anvaya-refresh .chakra-topic-copy{display:grid;gap:3px;min-width:0}
+body.anvaya-refresh .chakra-topic-copy strong{font:600 18px/1.08 var(--anvaya-serif);color:var(--anvaya-ink)}
+body.anvaya-refresh .chakra-topic-copy>span{font-size:10px;line-height:1.4;color:var(--anvaya-muted)}
+body.anvaya-refresh .chakra-topic-arrow{margin-left:auto;align-self:flex-start;color:var(--anvaya-brass);font-size:14px}
+body.anvaya-refresh .chakra-topic--nw{grid-area:nw;justify-self:end}
+body.anvaya-refresh .chakra-topic--north{grid-area:north;align-self:end}
+body.anvaya-refresh .chakra-topic--ne{grid-area:ne;justify-self:start}
+body.anvaya-refresh .chakra-topic--west{grid-area:west;justify-self:end}
+body.anvaya-refresh .chakra-topic--east{grid-area:east;justify-self:start}
+body.anvaya-refresh .chakra-topic--sw{grid-area:sw;justify-self:end}
+body.anvaya-refresh .chakra-topic--south{grid-area:south;align-self:start}
+body.anvaya-refresh .chakra-topic--se{grid-area:se;justify-self:start}
+body.anvaya-refresh.dark .chakra-core{background:radial-gradient(circle at 50% 38%,#40362e 0 38%,#2f302e 100%);border-color:rgba(177,138,74,.55)}
+body.anvaya-refresh.dark .chakra-topic{background:rgba(38,44,53,.94);border-color:rgba(244,239,229,.16);color:#f4efe5}
+body.anvaya-refresh.dark .chakra-topic-copy strong{color:#f4efe5}
+@media(max-width:760px){body.anvaya-refresh .chakra-stage{width:min(100%,620px);grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto;grid-template-areas:"core core";gap:12px}body.anvaya-refresh .chakra-core{grid-area:core;width:210px;height:210px;justify-self:center;margin-bottom:12px}body.anvaya-refresh .chakra-wheel{width:108px}body.anvaya-refresh .chakra-topic{width:100%;min-height:98px;padding:12px 10px;gap:8px}body.anvaya-refresh .chakra-topic-index{flex-basis:26px;width:26px;height:26px}body.anvaya-refresh .chakra-topic-copy strong{font-size:17px}body.anvaya-refresh .chakra-topic-copy>span{font-size:10px}body.anvaya-refresh .chakra-orbit{display:none}}
+@media(max-width:420px){body.anvaya-refresh .chakra-intro{margin-bottom:30px}body.anvaya-refresh .chakra-topic{min-height:110px;align-items:flex-start}body.anvaya-refresh .chakra-topic-copy strong{font-size:16px}body.anvaya-refresh .chakra-topic-copy>span{font-size:9px}}
+@media(prefers-reduced-motion:reduce){body.anvaya-refresh .chakra-topic{transition:none}}
