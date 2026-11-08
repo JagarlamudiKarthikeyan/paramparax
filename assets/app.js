@@ -1,6 +1,6 @@
 ﻿const translations = {
   en: {
-    brand:"ANVAYA", nav_home:"Home", nav_services:"Crafts", nav_how:"How it works", nav_contact:"Contact", nav_gallary:"Gallery", nav_chat:"Chat", chat_h2:"Ask the Heritage AI Guide", chat_lead:"Curious about a monument, festival, craft or recipe? Ask, speak or listen \u2014 answered instantly.",
+    brand:"ANVAYA", nav_home:"Home", nav_explore:"Explore India", nav_services:"Crafts", explore_kicker:"A living atlas", explore_title:"Explore India", explore_intro:"Find the places, practices and people behind India’s living heritage.", explore_search_label:"Search a state, craft or tradition", explore_search_ph:"Search a state, craft or tradition", explore_search_btn:"Search", explore_clear:"Clear", explore_regions:"Explore by state or territory", explore_stories:"Stories across the six worlds", nav_how:"How it works", nav_contact:"Contact", nav_gallary:"Gallery", nav_chat:"Chat", chat_h2:"Ask the Heritage AI Guide", chat_lead:"Curious about a monument, festival, craft or recipe? Ask, speak or listen \u2014 answered instantly.",
       svc_back:"\u2190 Back to crafts", svc_badge:"Service",
       svc_steps:"How it works", svc_about:"About this service",
       svc_crafts:"Crafts you will discover", svc_contact:"Reach the team",
@@ -68,7 +68,7 @@ favs_only:"Showing your favourite crafts.", favs_all:"Showing all crafts.",
     gal_login_req:"Please log in to upload photos.",
   },
   hi: {
-brand:"ANVAYA", nav_home:"होम", nav_services:"शिल्प", nav_how:"यह कैसे काम करता है", nav_contact:"संपर्क करें", nav_gallary:"गैलरी", nav_chat:"चैट", chat_h2:"ANVAYA AI गाइड से पूछें", chat_lead:"किसी स्मारक, त्योहार, शिल्प या रेसिपी के बारे में जानना है? पूछें, बोलें या सुनें \u2014 तुरंत जवाब।",
+brand:"ANVAYA", nav_home:"होम", nav_explore:"भारत की खोज", nav_services:"शिल्प", explore_kicker:"जीवित विरासत का एटलस", explore_title:"भारत की खोज", explore_intro:"भारत की जीवित विरासत से जुड़े स्थानों, परंपराओं और लोगों को जानें।", explore_search_label:"राज्य, शिल्प या परंपरा खोजें", explore_search_ph:"राज्य, शिल्प या परंपरा खोजें", explore_search_btn:"खोजें", explore_clear:"साफ़ करें", explore_regions:"राज्य या केंद्रशासित प्रदेश से खोजें", explore_stories:"छह संसारों की कहानियाँ", nav_how:"यह कैसे काम करता है", nav_contact:"संपर्क करें", nav_gallary:"गैलरी", nav_chat:"चैट", chat_h2:"ANVAYA AI गाइड से पूछें", chat_lead:"किसी स्मारक, त्योहार, शिल्प या रेसिपी के बारे में जानना है? पूछें, बोलें या सुनें \u2014 तुरंत जवाब।",
     svc_back:"\u2190 शिल्प पर वापस जाएं", svc_badge:"सेवा",
     svc_steps:"यह कैसे काम करता है", svc_about:"इस सेवा के बारे में",
     svc_crafts:"आप जो शिल्प जानेंगे", svc_contact:"टीम से संपर्क करें",
@@ -136,7 +136,7 @@ favs_only:"आपकी पसंदीदा शिल्प दिखाए �
     gal_login_req:"फोटो अपलोड करने के लिए कृपया लॉग इन करें।",
   },
   te: {
-brand:"ANVAYA", nav_home:"హోమ్", nav_services:"శిల్పాలు", nav_how:"ఇది ఎలా పనిచేస్తుంది", nav_contact:"సంప్రదించండి", nav_gallary:"గ్యాలరీ", nav_chat:"చాట్", chat_h2:"హెరిటేజ్ AI గైడ్ని అడగండి", chat_lead:"స్మారకం, పండుగ, శిల్పం లేదా వంటకం గురించి ఆసక్తి ఉందా? అడగండి, మాట్లాడండి లేదా వినండి \u2014 వెంటనే సమాధానం.",
+brand:"ANVAYA", nav_home:"హోమ్", nav_explore:"భారతదేశాన్ని అన్వేషించండి", nav_services:"శిల్పాలు", explore_kicker:"సజీవ వారసత్వ అట్లాస్", explore_title:"భారతదేశాన్ని అన్వేషించండి", explore_intro:"భారత సజీవ వారసత్వంలోని ప్రదేశాలు, ఆచారాలు, ప్రజలను తెలుసుకోండి.", explore_search_label:"రాష్ట్రం, కళ లేదా సంప్రదాయం వెతకండి", explore_search_ph:"రాష్ట్రం, కళ లేదా సంప్రదాయం వెతకండి", explore_search_btn:"వెతకండి", explore_clear:"తొలగించండి", explore_regions:"రాష్ట్రం లేదా కేంద్రపాలిత ప్రాంతం ద్వారా", explore_stories:"ఆరు ప్రపంచాల కథలు", nav_how:"ఇది ఎలా పనిచేస్తుంది", nav_contact:"సంప్రదించండి", nav_gallary:"గ్యాలరీ", nav_chat:"చాట్", chat_h2:"హెరిటేజ్ AI గైడ్ని అడగండి", chat_lead:"స్మారకం, పండుగ, శిల్పం లేదా వంటకం గురించి ఆసక్తి ఉందా? అడగండి, మాట్లాడండి లేదా వినండి \u2014 వెంటనే సమాధానం.",
     svc_back:"\u2190 శిల్పాలకు తిరిగి వెళ్ళండి", svc_badge:"సేవ",
     svc_steps:"ఇది ఎలా పని చేస్తుంది", svc_about:"ఈ సేవ గురించి",
     svc_crafts:"మీరు తెలుసుకునే శిల్పాలు", svc_contact:"బృందాన్ని సంప్రదించండి",
@@ -985,6 +985,8 @@ const STATE_INFO = {
   "IN-UT": {en:["Uttarakhand","Aipan & ringal craft","Mountain craft of Aipan motifs, copperware and ringal basketry."], hi:["उत्तराखंड","ऐपण और रिंगाल शिल्प","ऐपण पैटर्न, तांबे के बर्तन और रिंगाल टोकरी शिल्प।"], te:["ఉత్తరాఖండ్","ఐపన్ & రింగల్ హస్తకళ","ఐపన్ నమూనాలు, రాగి పాత్రలు & రింగల్ బుట్టల హస్తకళ."]},
   "IN-WB": {en:["West Bengal","Kantha & terracotta","Bengal of kantha stitch, terracotta temples and dhokra craft."], hi:["पश्चिम बंगाल","कांथा और टेराकोटा","कांथा सिलाई, टेराकोटा मंदिर और ढोकरा शिल्प का बंगाल।"], te:["పశ్చిమ బెంగాల్","కాంథా & టెర్రకోట","కాంథా కుట్టు, టెర్రకోట దేవాలయాలు & ధోక్రా హస్తకళ బెంగాల్."]}
 };
+
+window.ANVAYA_ATLAS = { worlds: WORLDS, worldFiles: WORLD_FILES, states: STATE_INFO, currentLanguage: () => currentLang };
 
 const _origLangBtn = document.querySelectorAll('.lang-switch button');
 _origLangBtn.forEach(btn=>{
