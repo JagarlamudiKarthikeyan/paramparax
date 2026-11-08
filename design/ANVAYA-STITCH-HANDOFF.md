@@ -48,4 +48,4 @@ The project includes desktop and mobile companions for the page suite, including
 - Review and edit the visual screens in the linked Stitch project.
 - Use this repository for implementation work, review notes, and team coordination.
 - Keep the Stitch frames and this handoff aligned when the design changes.
-- The current repository contains an existing ParamparaX application. The Stitch work is a design prototype; this handoff does not implement it in the application or change backend behavior.
+- The existing application is being rebranded as ANVAYA. The Stitch work remains the visual design source of truth; this handoff preserves the existing backend behavior.

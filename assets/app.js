@@ -1,6 +1,6 @@
 ﻿const translations = {
   en: {
-    brand:"ParamparaX", nav_home:"Home", nav_services:"Crafts", nav_how:"How it works", nav_contact:"Contact", nav_gallary:"Gallery", nav_chat:"Chat", chat_h2:"Ask the Heritage AI Guide", chat_lead:"Curious about a monument, festival, craft or recipe? Ask, speak or listen \u2014 answered instantly.",
+    brand:"ANVAYA", nav_home:"Home", nav_services:"Crafts", nav_how:"How it works", nav_contact:"Contact", nav_gallary:"Gallery", nav_chat:"Chat", chat_h2:"Ask the Heritage AI Guide", chat_lead:"Curious about a monument, festival, craft or recipe? Ask, speak or listen \u2014 answered instantly.",
       svc_back:"\u2190 Back to crafts", svc_badge:"Service",
       svc_steps:"How it works", svc_about:"About this service",
       svc_crafts:"Crafts you will discover", svc_contact:"Reach the team",
@@ -16,7 +16,7 @@ svc_note:"We usually reply within a day.",
     c2_title:"Learn from artisans", c2_body:"Watch master artisans teach their craft — techniques, stories and step-by-step lessons.",
     c3_title:"Visit craft villages", c3_body:"Find live workshops, museums and craft hubs — check timings and plan your visit.",
     c4_title:"Upload & sell crafts", c4_body:"Artisans can list their handmade products and get authenticity tags without a queue.",
-    how_h2:"How ParamparaX works",
+    how_h2:"How ANVAYA works",
     step1_title:"Discover your craft", step1_body:"Search by state, craft or artisan and build your own heritage map.",
     step2_title:"Learn the story", step2_body:"Watch lessons and read the history behind each craft form.",
     step3_title:"Support artisans", step3_body:"Plan a visit or buy authentic handmade pieces directly from makers.",
@@ -45,7 +45,7 @@ signup_ph:"Enter 10-digit mobile number", signup_btn:"Join", signup_aria:"Mobile
 favs_only:"Showing your favourite crafts.", favs_all:"Showing all crafts.",
     hero_eyebrow:"A living museum of India's crafts", hero_scroll:"Scroll to explore", hero_cta2:"Explore the Six Worlds",
     cat_all:"All",
-    worlds_h2:"The Six Worlds of ParamparaX",
+    worlds_h2:"The Six Worlds of ANVAYA",
     worlds_sub:"Journey through the worlds that make up India's living heritage — each with its own stories, sounds and colours.",
     world_t1:"Arts and Handicrafts", world_t2:"Dance Forms", world_t3:"Culture and Festivals",
     world_t4:"Heritage Places", world_t5:"Languages", world_t6:"Origins and Stories",
@@ -68,7 +68,7 @@ favs_only:"Showing your favourite crafts.", favs_all:"Showing all crafts.",
     gal_login_req:"Please log in to upload photos.",
   },
   hi: {
-brand:"परंपराX", nav_home:"होम", nav_services:"शिल्प", nav_how:"यह कैसे काम करता है", nav_contact:"संपर्क करें", nav_gallary:"गैलरी", nav_chat:"चैट", chat_h2:"परंपराX AI गाइड से पूछें", chat_lead:"किसी स्मारक, त्योहार, शिल्प या रेसिपी के बारे में जानना है? पूछें, बोलें या सुनें \u2014 तुरंत जवाब।",
+brand:"ANVAYA", nav_home:"होम", nav_services:"शिल्प", nav_how:"यह कैसे काम करता है", nav_contact:"संपर्क करें", nav_gallary:"गैलरी", nav_chat:"चैट", chat_h2:"ANVAYA AI गाइड से पूछें", chat_lead:"किसी स्मारक, त्योहार, शिल्प या रेसिपी के बारे में जानना है? पूछें, बोलें या सुनें \u2014 तुरंत जवाब।",
     svc_back:"\u2190 शिल्प पर वापस जाएं", svc_badge:"सेवा",
     svc_steps:"यह कैसे काम करता है", svc_about:"इस सेवा के बारे में",
     svc_crafts:"आप जो शिल्प जानेंगे", svc_contact:"टीम से संपर्क करें",
@@ -84,7 +84,7 @@ svc_note:"हम आमतौर पर एक दिन में उत्त�
     c2_title:"कारीगरों से सीखें", c2_body:"मास्टर कारीगरों को अपना शिल्प सिखाते देखें — तकनीक, कहानियां और चरण-दर-चरण पाठ।",
     c3_title:"शिल्प गांवों का दौरा करें", c3_body:"लाइव वर्कशॉप, संग्रहालय और शिल्प केंद्र खोजें — समय देखें और अपनी यात्रा की योजना बनाएं।",
     c4_title:"शिल्प अपलोड व बिक्री", c4_body:"कारीगर अपने हस्तनिर्मित उत्पाद सूचीबद्ध करें और बिना कतार के असलीपन टैग प्राप्त करें।",
-    how_h2:"परंपराX कैसे काम करता है",
+    how_h2:"ANVAYA कैसे काम करता है",
     step1_title:"अपना शिल्प खोजें", step1_body:"राज्य, शिल्प या कारीगर से खोजें और अपना विरासत नक्शा बनाएं।",
     step2_title:"कहानी जानें", step2_body:"प्रत्येक शिल्प के पीछे का इतिहास पढ़ें और पाठ देखें।",
     step3_title:"कारीगरों का समर्थन करें", step3_body:"कारीगरों से सीधे असली हस्तनिर्मित उत्पाद खरीदें या यात्रा की योजना बनाएं।",
@@ -93,7 +93,7 @@ svc_note:"हम आमतौर पर एक दिन में उत्त�
     apply_btn:"खोजना शुरू करें",
     modal_steps_title:"कदम अंदर", modal_steps_sub:"इस शिल्प में उतरने के तीन आसान कदम।", modal_gotit:"ठीक है",
     search_none:"आपकी खोज से कोई शिल्प मेल नहीं खाता। कोई और शिल्प या क्षेत्र आज़माएं।",
-    signup_title:"परंपराX समुदाय से जुड़ें", signup_sub:"मोबाइल नंबर और राज्य के साथ — दो मिनट में नि:शुल्क पंजीकरण।",
+    signup_title:"ANVAYA समुदाय से जुड़ें", signup_sub:"मोबाइल नंबर और राज्य के साथ — दो मिनट में नि:शुल्क पंजीकरण।",
     signup_ph:"10 अंकों का मोबाइल नंबर दर्ज करें", signup_btn:"जुड़ें", signup_aria:"मोबाइल नंबर",
     signup_error:"कृपया एक मान्य 10 अंकों का मोबाइल नंबर दर्ज करें।",
     signup_state:"अपना राज्य चुनें",
@@ -113,7 +113,7 @@ svc_note:"हम आमतौर पर एक दिन में उत्त�
 favs_only:"आपकी पसंदीदा शिल्प दिखाए जा रहे हैं।", favs_all:"सभी शिल्प दिखाए जा रहे हैं।",
     hero_eyebrow:"भारत के शिल्पों का जीवंत संग्रहालय", hero_scroll:"अन्वेषण के लिए स्क्रॉल करें", hero_cta2:"छह संसार देखें",
     cat_all:"सभी",
-    worlds_h2:"परंपराX के छह संसार",
+    worlds_h2:"ANVAYA के छह संसार",
     worlds_sub:"भारत की जीवित विरासत के संसारों की यात्रा करें — हर एक की अपनी कहानियां, ध्वनियां और रंग हैं।",
     world_t1:"कला और हस्तशिल्प", world_t2:"नृत्य शैलियाँ", world_t3:"संस्कृति और त्योहार",
     world_t4:"विरासत स्थल", world_t5:"भाषाएं", world_t6:"उत्पत्ति और कथाएं",
@@ -136,7 +136,7 @@ favs_only:"आपकी पसंदीदा शिल्प दिखाए �
     gal_login_req:"फोटो अपलोड करने के लिए कृपया लॉग इन करें।",
   },
   te: {
-brand:"పరంపరX", nav_home:"హోమ్", nav_services:"శిల్పాలు", nav_how:"ఇది ఎలా పనిచేస్తుంది", nav_contact:"సంప్రదించండి", nav_gallary:"గ్యాలరీ", nav_chat:"చాట్", chat_h2:"హెరిటేజ్ AI గైడ్ని అడగండి", chat_lead:"స్మారకం, పండుగ, శిల్పం లేదా వంటకం గురించి ఆసక్తి ఉందా? అడగండి, మాట్లాడండి లేదా వినండి \u2014 వెంటనే సమాధానం.",
+brand:"ANVAYA", nav_home:"హోమ్", nav_services:"శిల్పాలు", nav_how:"ఇది ఎలా పనిచేస్తుంది", nav_contact:"సంప్రదించండి", nav_gallary:"గ్యాలరీ", nav_chat:"చాట్", chat_h2:"హెరిటేజ్ AI గైడ్ని అడగండి", chat_lead:"స్మారకం, పండుగ, శిల్పం లేదా వంటకం గురించి ఆసక్తి ఉందా? అడగండి, మాట్లాడండి లేదా వినండి \u2014 వెంటనే సమాధానం.",
     svc_back:"\u2190 శిల్పాలకు తిరిగి వెళ్ళండి", svc_badge:"సేవ",
     svc_steps:"ఇది ఎలా పని చేస్తుంది", svc_about:"ఈ సేవ గురించి",
     svc_crafts:"మీరు తెలుసుకునే శిల్పాలు", svc_contact:"బృందాన్ని సంప్రదించండి",
@@ -152,7 +152,7 @@ svc_note:"మేము సాధారణంగా ఒక రోజులో బ
     c2_title:"కళాకారుల నుంచి నేర్చుకోండి", c2_body:"మాస్టర్ హస్తకళాకారులు తమ నైపుణ్యాన్ని బోధిస్తున్నప్పుడు చూడండి — పద్ధతులు, కథలు మరియు దశల వారీ పాఠాలు.",
     c3_title:"శిల్ప గ్రామాలను సందర్శించండి", c3_body:"ప్రత్యక్ష వర్క్‌షాప్‌లు, మ్యూజియంలు మరియు కళా కేంద్రాలను కనుగొన్ని సమయాలు చదివి మీ సందర్శనను ప్లాన్ చేయండి.",
     c4_title:"శిల్పాలను అప్‌లోడ్ చేయండి", c4_body:"హస్తకళాకారులు తమ చేతితో తయారు చేసిన ఉత్పత్తులను జాబితా చేసి, క్యూ లేకుండా ప్రామాణికత ట్యాగ్ పొందండి.",
-    how_h2:"పరంపరX ఎలా పనిచేస్తుంది",
+    how_h2:"ANVAYA ఎలా పనిచేస్తుంది",
     step1_title:"మీ శిల్పాన్ని కనుగొనండి", step1_body:"రాష్ట్రం, శిల్పం లేదా కళాకారుడి ద్వారా వెతికి మీ వారసత్వ పటాన్ని నిర్మించుకోండి.",
     step2_title:"కథ నేర్చుకోండి", step2_body:"ప్రతి శిల్పం వెనుక చరిత్రను చదవండి మరియు పాఠాలు చూడండి.",
     step3_title:"కళాకారులకు మద్దతు ఇవ్వండి", step3_body:"కళాకారుల నుంచి నేరుగా అసలైన చేతిపనులను కొనుగోలు చేయండి లేదా సందర్శనను ప్లాన్ చేయండి.",
@@ -181,7 +181,7 @@ svc_note:"మేము సాధారణంగా ఒక రోజులో బ
 favs_only:"మీ ఇష్టమైన శిల్పాలు చూపుతోంది.", favs_all:"అన్ని శిల్పాలు చూపుతోంది.",
     hero_eyebrow:"భారతదేశ కళల ప్రత్యక్ష మ్యూజియం", hero_scroll:"అన్వేషించడానికి స్క్రోల్ చేయండి", hero_cta2:"ఆరు ప్రపంచాలు చూడండి",
     cat_all:"అన్నీ",
-    worlds_h2:"పరంపరX ఆరు ప్రపంచాలు",
+    worlds_h2:"ANVAYA ఆరు ప్రపంచాలు",
     worlds_sub:"భారతదేశ సజీవ వారసత్వాన్ని రూపొందించే ప్రపంచాలుగా ప్రయాణించండి — ప్రతిదానికీ సొంత కథలు, శబ్దాలు మరియు రంగులు ఉన్నాయి.",
     world_t1:"కళలు మరియు చేతిపనులు", world_t2:"నృత్య రూపాలు", world_t3:"సంస్కృతి మరియు పండుగలు",
     world_t4:"వారసత్వ ప్రదేశాలు", world_t5:"భాషలు", world_t6:"మూలాలు మరియు కథలు",
@@ -999,19 +999,19 @@ _origLangBtn.forEach(btn=>{
 /* ---- service detail pages ---- */
 const SERVICE_DETAILS = {
   0:{en:{tag:"Search crafts, monuments and living traditions by state, craft or artisan.",
-       about:["ParamparaX gathers India's heritage catalogue in one place. Browse by state, craft or artisan to see what each region is famous for.",
+       about:["ANVAYA gathers India's heritage catalogue in one place. Browse by state, craft or artisan to see what each region is famous for.",
               "Save your favourites to build your own heritage map \u2014 then visit them on the map or read their full story."],
        cats:[["Heritage monuments","Temples, forts and palaces that tell stories of their time."],
              ["Living crafts","Traditions still being made today, village by village."],
              ["Folk festivals","Fairs of colour, music and emotion across the seasons."]]},
       hi:{tag:"राज्य, शिल्प या कारीगर के अनुसार शिल्प, स्मारक और जीवित परंपराएँ खोजें।",
-       about:["परंपराX भारत की विरासत सूची को एक जगह लाता है। राज्य, शिल्प या कारीगर के अनुसार देखें कि हर क्षेत्र किस लिए प्रसिद्ध है।",
+       about:["ANVAYA भारत की विरासत सूची को एक जगह लाता है। राज्य, शिल्प या कारीगर के अनुसार देखें कि हर क्षेत्र किस लिए प्रसिद्ध है।",
               "पसंदीदा सहेजकर अपना विरासत नक्शा बनाएं \u2014 फिर उन्हें नक्शे पर देखें या उनकी पूरी कहानी पढ़ें।"],
        cats:[["ऐतिहासिक स्मारक","मंदिर, किले और महल जो अपने समय की कहानियाँ बताते हैं।"],
              ["जीवित शिल्प","परंपराएँ जो आज भी गाँव-गाँव बनती हैं।"],
              ["लोक त्योहार","रंग, संगीत और भावनाओं के मेले।"]]},
       te:{tag:"రాష్ట్రం, శిల్పం లేదా కళాకారుడి ఆధారంగా శిల్పాలు, స్మారకాలు మరియు సజీవ సంప్రదాయాలను వెతకండి.",
-       about:["పరంపరX భారత వారసత్వ కేటలాగ్‌ను ఒకే చోటకు తీసుకొస్తుంది. రాష్ట్రం, శిల్పం లేదా కళాకారుడి ఆధారంగా ప్రతి ప్రాంతం దేనికి ప్రసిద్ధమో చూడండి.",
+       about:["ANVAYA భారత వారసత్వ కేటలాగ్‌ను ఒకే చోటకు తీసుకొస్తుంది. రాష్ట్రం, శిల్పం లేదా కళాకారుడి ఆధారంగా ప్రతి ప్రాంతం దేనికి ప్రసిద్ధమో చూడండి.",
               "ఇష్టమైనవి సేవ్ చేసి మీ వారసత్వ పటాన్ని రూపొందించండి \u2014 తర్వాత వాటిని పటంలో చూడండి లేదా వాటి పూర్తి కథ చదవండి."],
        cats:[["వారసత్వ స్మారకాలు","తమ కాలపు కథలు చెప్పే దేవాలయాలు, కోటలు & రాజభవనాలు."],
              ["సజీవ శిల్పాలు","ఇప్పటికీ గ్రామాల్లో నిర్మితమవుతున్న సంప్రదాయాలు."],
@@ -1054,19 +1054,19 @@ const SERVICE_DETAILS = {
              ["ప్రత్యక్ష వర్క్‌షాప్‌లు","సందర్శకుల కోసం తలుపులు తెరిచే కళాకారులు."]]}},
   3:{en:{tag:"List your handmade products and get an authenticity tag \u2014 no queues.",
        about:["Built for artisans who want to sell directly. Register, upload clear photos of your work, and receive a GI-style authenticity tag that buyers trust.",
-              "No middlemen and no waiting lists \u2014 customers find you through ParamparaX's craft map and catalogue."],
+              "No middlemen and no waiting lists \u2014 customers find you through ANVAYA's craft map and catalogue."],
        cats:[["Handmade textiles","Weaves and embroideries ready for their new home."],
              ["Home decor & toys","Clay, wood and fabrics that brighten any room."],
              ["Jewellery & accessories","Beads, brass and silver worn with pride."]]},
       hi:{tag:"अपने हस्तनिर्मित उत्पाद सूचीबद्ध करें और असलीपन टैग पाएं \u2014 बिना कतार के।",
        about:["सीधे बेचने वाले कारीगरों के लिए बनाया गया। पंजीकरण करें, अपने काम की साफ तस्वीरें अपलोड करें और जीआई जैसा असलीपन टैग पाएं।",
-              "कोई बिचौलिया और कोई इंतज़ार नहीं \u2014 ग्राहक आपको परंपराX के नक्शे और सूची से खुद खोजते हैं।"],
+              "कोई बिचौलिया और कोई इंतज़ार नहीं \u2014 ग्राहक आपको ANVAYA के नक्शे और सूची से खुद खोजते हैं।"],
        cats:[["हस्तनिर्मित वस्त्र","अपने नए घर के लिए तैयार बुनाई और कढ़ाई।"],
              ["सजावट और खिलौने","मिट्टी, लकड़ी और कपड़ा जो घर रोशन करे।"],
              ["आभूषण और सहायक","गर्व से पहने जाने वाले मनके, पीतल और चाँदी।"]]},
       te:{tag:"మీ చేతితో తయారు చేసిన ఉత్పత్తులను జాబితా చేసి ప్రామాణికత ట్యాగ్ పొందండి \u2014 క్యూ లేకుండా.",
        about:["నేరుగా అమ్మాలనుకునే కళాకారుల కోసం రూపొందించబడింది. నమోదు చేసి, మీ పని స్పష్టమైన ఫోటోలు అప్‌లోడ్ చేసి, కొనుగోలుదారులు నమ్మే GI-రకం ట్యాగ్ పొందండి.",
-              "మధ్యవర్తులు లేరు, వేచి ఉండాల్సిన అవసరం లేదు \u2014 కస్టమర్లు మిమ్మల్ని పరంపరX పటం & కేటలాగ్‌లో కనుగొంటారు."],
+              "మధ్యవర్తులు లేరు, వేచి ఉండాల్సిన అవసరం లేదు \u2014 కస్టమర్లు మిమ్మల్ని ANVAYA పటం & కేటలాగ్‌లో కనుగొంటారు."],
        cats:[["చేతితో నేసిన వస్త్రాలు","కొత్త ఇల్లు కోసం సిద్ధమైన నేతలు & ఎంబ్రాయిడరీలు."],
              ["హోం డెకర్ & బొమ్మలు","ఇంటిని వెలిగించే మట్టి, కలప & బట్ట."],
              ["ఆభరణాలు & ఉపకరణాలు","గర్వంగా ధరించే పూసలు, ఇత్తడి & వెండి."]]}}
@@ -1099,7 +1099,7 @@ function renderService(idx){
   svcAbout1.textContent = d.about[0];
   svcAbout2.textContent = d.about[1];
   svcCats.innerHTML = d.cats.map(c=>'<div class="svc-cat"><span class="svc-cat-name">'+c[0]+'</span><p>'+c[1]+'</p></div>').join('');
-  document.title = svcName.textContent + ' \u2014 ParamparaX';
+  document.title = svcName.textContent + ' \u2014 ANVAYA';
 }
 function showSvcPage(idx){
   renderService(idx);
@@ -1111,7 +1111,7 @@ function hideSvcPage(){
   svcIdx = -1;
   document.getElementById('serviceView').hidden = true;
   document.getElementById('services').hidden = false;
-  document.title = 'ParamparaX \u2014 Heritage & Crafts';
+  document.title = 'ANVAYA \u2014 Heritage & Crafts';
 }
 function parseSvcHash(){
   const m = location.hash.match(/^#\/service\/(\d+)$/);

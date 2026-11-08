@@ -1,5 +1,5 @@
 """
-ParamparaX SIH prototype - backend (Flask + SQLite/Postgres).
+ANVAYA heritage discovery platform - backend (Flask + SQLite/Postgres).
 
 Stores:
   - user signups (mobile number + state)

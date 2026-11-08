@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/logo.png" width="120" height="120" alt="ParamparaX logo">
+  <img src="assets/logo.png" width="120" height="120" alt="ANVAYA logo">
 </p>
 
-# ParamparaX
+# ANVAYA — India’s Living Heritage Atlas
 
-A living museum of India's cultural heritage — an AI-powered discovery platform for crafts, dances, festivals, heritage places, languages and origin stories.
+India’s Living Heritage Atlas — a cultural discovery platform for crafts, dance, festivals, heritage places, languages, and living stories. Every tradition has a story. Discover. Connect. Preserve.
 
 ## Features
 
@@ -49,7 +49,7 @@ python backend/app.py
 # open http://127.0.0.1:5000
 ```
 
-The site opens on the intro + Log in / Sign up page; already-signed-in users go straight to the heritage home. A `ParamparaX` startup entry starts the server automatically at Windows logon.
+The site opens on the intro + Log in / Sign up page; already-signed-in users go straight to the heritage home. An `ANVAYA` startup entry starts the server automatically at Windows logon.
 
 ## Database
 
